@@ -1,0 +1,387 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(72, 78, 94);
+    color: gray;
+}
+body p{
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 40px;
+}
+.Cafe{
+    margin-top: 30px;
+    background-color:white;
+    width: 700px;
+    height: 2650px;
+    margin-right: auto; margin-left:auto ;
+}
+.section1{
+    background-image: url(chilling-cafe-01.jpg);
+    background-size: cover;
+    height: 500px;
+}
+.section2 p{
+    text-align: center;
+    margin-top: 50px;
+    color: rgba(165, 42, 42, 0.705);
+    font-size: 30px;
+}
+.coffeemenu{
+    margin-top: 50px;   
+    font-size: 20px;
+    width: 650px;
+    height: 350px;
+    margin-right: auto;
+    margin-left: auto; 
+}
+.coffee{
+    background-color: rgba(72, 78, 94, 0.289);
+    height: 50px;
+}
+.coffee li{
+    margin-top: 10px;
+}
+.coffee ul{
+   list-style: none;
+   display: flex; 
+   margin-left: 350px; 
+   justify-content: space-around;
+   color: rgba(0, 0, 0, 0.666);
+}
+.item1{
+    background-color: rgba(227, 223, 217, 0.27);
+    height: 50px;  
+}
+.item1 li{
+    margin-top: 10px;
+}
+.item1 ul{
+    list-style: none;   
+    display: flex;
+    gap: 70px;
+    justify-content: flex-end;
+    margin-right: 70px; 
+}
+ .Americano{
+    margin-right: 200px;
+ }
+ .item2{
+    background-color: rgba(107, 105, 101, 0.136);
+    height: 50px;  
+}
+.item2 li{
+    margin-top: 10px;
+}
+.item2 ul{
+    list-style: none;   
+    display: flex;
+    gap: 70px;
+    justify-content: flex-end;
+    margin-right: 50px; 
+}
+.Cuppucino{
+    margin-right: 200px;
+}
+.item3{
+    background-color: rgba(227, 223, 217, 0.27);
+    height: 50px;  
+}
+.item3 li{
+    margin-top: 10px;
+}
+.item3 ul{
+    list-style: none;   
+    display: flex;
+    gap: 70px;
+    justify-content: flex-end;
+    margin-right:50px; 
+}
+.FreshLatte{
+    margin-right: 195px;
+} 
+.item4{
+    background-color: rgba(107, 105, 101, 0.136);
+    height: 50px;  
+}
+.item4 li{
+    margin-top: 10px;
+}
+.item4 ul{
+    list-style: none;   
+    display: flex;
+    gap: 70px;
+    justify-content: flex-end;
+    margin-right: 50px; 
+}
+ .Mocha{
+    margin-right: 230px;
+ } .item5{
+    background-color: rgba(227, 223, 217, 0.27);
+    height: 50px;  
+}
+.item5 li{
+    margin-top: 10px;
+}
+.item5 ul{
+    list-style: none;   
+    display: flex;
+    gap: 70px;
+    justify-content: flex-end;
+    margin-right: 70px; 
+}
+ .Espresso{
+    margin-right: 215px;
+ } .item6{
+    background-color: rgba(107, 105, 101, 0.136);
+    height: 50px;  
+}
+.item6 li{
+    margin-top: 10px;
+}
+.item6 ul{
+    list-style: none;   
+    display: flex;
+    gap: 80px;
+    justify-content: flex-end;
+    margin-right: 70px; 
+}
+ .BlackCoffee{
+    margin-right: 175px;
+ } .item7{
+    background-color: rgba(227, 223, 217, 0.27);
+    height: 50px;  
+}
+.item7 li{
+    margin-top: 10px;
+}
+.item7 ul{
+    list-style: none;   
+    display: flex;
+    gap: 70px;
+    justify-content: flex-end;
+    margin-right: 70px; 
+}
+ .DoubleShotExpresso{
+    margin-right: 110px;
+ }
+
+ .section3{
+     margin-top: 150px;
+ }
+ .section3 p{
+    text-align: center;
+    margin-top: 50px;
+    color: rgba(165, 42, 42, 0.705);
+    font-size: 30px;
+}
+.Teamenu{
+    margin-top: 50px;   
+    font-size: 20px;
+    width: 650px;
+    height: 350px;
+    margin-right: auto;
+    margin-left: auto; 
+}
+.Tea{
+    background-color: rgba(72, 78, 94, 0.289);
+    height: 50px;
+}
+.Tea li{
+    margin-top: 10px;
+}
+.Tea ul{
+   list-style: none;
+   display: flex; 
+   margin-left: 350px; 
+   justify-content: space-around;
+   color:  rgba(0, 0, 0, 0.666);
+}
+.itemT1{
+    background-color: rgba(227, 223, 217, 0.27);
+    height: 50px;  
+}
+.itemT1 li{
+    margin-top: 10px;
+}
+.itemT1 ul{
+    list-style: none;   
+    display: flex;
+    gap: 70px;
+    justify-content: flex-end;
+    margin-right: 70px; 
+}
+ .PureWhiteMilk{
+    margin-right: 160px;
+ }
+ .itemT2{
+    background-color: rgba(107, 105, 101, 0.136);
+    height: 50px;  
+}
+.itemT2 li{
+    margin-top: 10px;
+}
+.itemT2 ul{
+    list-style: none;   
+    display: flex;
+    gap: 70px;
+    justify-content: flex-end;
+    margin-right: 55px; 
+}
+.HongKongTea{
+    margin-right: 170px;
+}
+.itemT3{
+    background-color: rgba(227, 223, 217, 0.27);
+    height: 50px;  
+}
+.itemT3 li{
+    margin-top: 10px;
+}
+.itemT3 ul{
+    list-style: none;   
+    display: flex;
+    gap: 70px;
+    justify-content: flex-end;
+    margin-right:55px; 
+}
+.TaiwanTea {
+    margin-right: 205px;
+} 
+.itemT4{
+    background-color: rgba(107, 105, 101, 0.136);
+    height: 50px;  
+}
+.itemT4 li{
+    margin-top: 10px;
+}
+.itemT4 ul{
+    list-style: none;   
+    display: flex;
+    gap: 70px;
+    justify-content: flex-end;
+    margin-right: 70px; 
+}
+ .BubbleTea{
+    margin-right: 200px;
+ } .itemT5{
+    background-color: rgba(227, 223, 217, 0.27);
+    height: 50px;  
+}
+.itemT5 li{
+    margin-top: 10px;
+}
+.itemT5 ul{
+    list-style: none;   
+    display: flex;
+    gap: 65px;
+    justify-content: flex-end;
+    margin-right: 60px; 
+}
+ .MixedFruitTea {
+    margin-right: 165px;
+ } .itemT6{
+    background-color: rgba(107, 105, 101, 0.136);
+    height: 50px;  
+}
+.itemT6 li{
+    margin-top: 10px;
+}
+.itemT6 ul{
+    list-style: none;   
+    display: flex;
+    gap: 70px;
+    justify-content: flex-end;
+    margin-right: 65px; 
+}
+ .OriginalTea{
+    margin-right: 190px;
+ }
+ .SI{
+    text-align: center;
+    margin-top: 80px;
+    color: rgba(165, 42, 42, 0.705);
+    font-size: 30px;
+}
+.Specialitems{
+    display: flex;
+    margin-top: 50px;
+    gap: 30px;
+    justify-content: center;  
+}
+.Specialitems div{
+    width: 195px;
+    height: 190px;
+    background-color: rgb(209, 154, 154);
+}
+.Specialitems1{
+    background-image: url(chilling-cafe-11.jpg);
+    background-size: cover;
+}
+.Specialitems2{
+    background-image: url(chilling-cafe-12.jpg);
+    background-size: cover;
+}
+.Specialitems3{
+    background-image: url(chilling-cafe-13.jpg);
+    background-size: cover;
+}
+.Nameandcost{
+    margin-top: 25px;
+    font-size: 19px;
+}
+.Nameandcost ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 140px;
+    color: rgba(0, 0, 0, 0.773);
+}
+li p{
+  margin-left: 40px; 
+  margin-top: 10px;
+}
+button{
+    width: 450px;
+    margin-left: 130px;
+    margin-right: auto;
+    margin-top: 50px;
+
+}
+.Aboutourcafe p{
+    margin-top: 25px;
+    font-size: 20px ;
+    text-align: center;
+    color: gray;
+    font-size: 20px;
+}
+.Talktous{
+    font-size: 20px;
+}
+.Email{
+    color: rgba(0, 0, 0, 0.666);
+}
+.section4 .Ac{
+    text-align: center;
+    margin-top: 40px;
+    color: rgba(165, 42, 42, 0.705);
+    font-size: 30px;
+}
+
+ .section4 .Tc{
+    text-align: center;
+    margin-top: 40px;
+    color: rgba(165, 42, 42, 0.705);
+    font-size: 30px;
+}
+.Copyright{
+    margin-top: 40px;
+    color: white;
+    text-align: center;
+    font-size: 19px;
+    margin-bottom: 40px;
+    
+}
