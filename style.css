@@ -19,10 +19,9 @@ body p{
     height: 2650px;
     margin-right: auto; margin-left:auto ;
 }
-.section1{
-    background-image: url(chilling-cafe-01.jpg);
-    background-size: cover;
-    height: 500px;
+.section1 img{
+     width: 700px;
+   
 }
 .section2 p{
     text-align: center;
@@ -349,7 +348,6 @@ button{
     margin-left: 130px;
     margin-right: auto;
     margin-top: 50px;
-
 }
 .Aboutourcafe p{
     margin-top: 25px;
@@ -370,18 +368,225 @@ button{
     color: rgba(165, 42, 42, 0.705);
     font-size: 30px;
 }
-
- .section4 .Tc{
+.section4 .Tc{
     text-align: center;
     margin-top: 40px;
     color: rgba(165, 42, 42, 0.705);
     font-size: 30px;
+}
+.socialmedia{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 40px;    
+}
+.fa-brands{
+    padding: 15px;
+    background-color: rgba(72, 78, 94, 0.568);
+    color: white;
+    border-radius: 3px;
 }
 .Copyright{
     margin-top: 40px;
     color: white;
     text-align: center;
     font-size: 19px;
-    margin-bottom: 40px;
-    
+    margin-bottom: 40px;   
+}
+
+@media only screen and (max-width:512px){
+    body{
+        width: 150%;
+        margin: 0px;
+    }
+    body p{
+        font-size: 15px;
+    }
+    .Cafe{
+        width: 300px;
+        height: 2200px;
+    }
+    .section1 img{
+         width: 300px;
+    }
+    .section2 p{
+        font-size: 15px;
+    }
+    .coffeemenu{
+        width: 270px;
+        height: 300px;
+        font-size: 12px;
+    }
+    .coffeemenu div{
+       height: 25px;
+    }
+
+    .coffee ul{
+        margin-left: 115px;
+    }
+    .item1 ul{
+        margin-right: 35px;
+        gap: 35px;
+    }
+    .Americano{
+        margin-right: 30px;
+    }
+    .item2 ul{
+        margin-right: 20px;
+        gap: 35px;
+    }
+    .Cuppucino {
+        margin-right: 30px;
+    }
+    .item3 ul{
+        margin-right: 20px;
+        gap: 35px;
+    }
+    .FreshLatte {
+        margin-right: 30px;
+    }
+    .item4 ul{
+        margin-right: 20px;
+        gap: 35px;
+    }
+    .Mocha {
+        margin-right: 50px;
+    }
+    .item5 ul{
+        margin-right: 32px;
+        gap: 35px;
+    }
+    .Espresso{
+        margin-right: 42px;
+    }
+    .item6 ul{
+        margin-right: 32px;
+        gap: 40px;
+    }
+    .BlackCoffee{
+        margin-right: 20px;
+    }
+    .item7 ul{
+        margin-right: 25px;
+        gap: 30px;
+    }
+    .item7 li{
+        margin-right: 0px;
+       margin-top: 10px;
+    }
+    .DoubleShotExpresso{
+        margin-right: 20px;
+    }
+    .section3{
+        margin: 0px;
+        height: 350px;
+    }
+    .section3 p{
+        font-size: 12px; 
+       margin: 0px;
+    }
+    .Teamenu{
+        width: 270px;
+        font-size: 12px; 
+    }
+    .Teamenu div{
+       height: 30px;
+    }
+
+    .Tea ul{
+        margin-left: 115px;
+    }
+    .itemT1 ul{
+        margin-right: 35px;
+        gap: 35px;
+    }
+    .PureWhiteMilk{
+        margin-right: 10px;
+    }
+    .itemT2 ul{
+        margin-right: 27px;
+        gap: 35px;
+    }
+    .HongKongTea {
+        margin-right: 15px;
+    }
+    .itemT3 ul{
+        margin-right: 27px;
+        gap: 35px;
+    }
+    .TaiwanTea  {
+        margin-right: 35px;
+    }
+    .itemT4 ul{
+        margin-right: 35px;
+        gap: 35px;
+    }
+    .BubbleTea{
+        margin-right: 35px;
+    }
+    .itemT5 ul{
+        margin-right: 32px;
+        gap: 35px;
+    }
+    .itemT5 li {
+        margin-top: 10px;
+        margin-right: 0px;
+    }
+    .MixedFruitTea{
+        margin-right: 42px;
+    }
+    .itemT6 ul{
+        margin-right: 25px;
+        gap: 40px;
+    }
+    .OriginalTea{
+        margin-right: 20px;
+    }
+    .section4{
+        font-size: 12px;
+    }
+    .SI{
+        margin: 0;
+        font-size: 12px;
+    }
+    .Specialitems  {
+        display: inline;
+        text-align: center;
+       
+    }
+    .Specialitems div {
+      margin: 10px 70px;
+      width: 150px;
+      height: 150px;
+       
+    }
+    .Specialitems p{
+        color: black;
+        margin: 0 0 20px 20px;
+    }
+    button{
+        margin: 0px 50px 0px 50px;
+        width: 200px;
+    }
+    .Aboutourcafe p{
+        font-size: 12px;
+        width: 200px;
+        text-align: center;
+        margin:  20px auto 0 auto;
+    }
+    .Copyright {
+        font-size: 12px;
+       
+    }
+
+   
+   
+   
+   
+
+   
+
+
+
+
 }
